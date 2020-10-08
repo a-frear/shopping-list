@@ -27,7 +27,7 @@ function checkItems() {
     $('.shopping-list').on('click', '.shopping-item-toggle', function (event) {
         //toggle the element off/on of css class .shopping-item__checked
         const itemCheck = $(this).closest("li").find(".shopping-item");
-        // toggle the presence of 'bulb-on' on this bulb; 
+        // toggle 
         itemCheck.toggleClass("shopping-item__checked"); 
     }
     );
